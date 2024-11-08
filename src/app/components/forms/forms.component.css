@@ -30,11 +30,37 @@
 .form-group h3{
     font-size: 24px;
     color: var(--medium-text);
+    margin-top: 32px;
+    margin-bottom: 8px;
 
 }
 .form-group .radio-wrapper{
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    border-top: 1px solid var(--light-border);
+    padding: 8px 4px;
+    position: relative;
+    color: var(--medium-text);
     
 }
+
+.form-group .radio-wrapper:nth-last-child(2){
+    border-bottom: 1px solid var();
+    margin-bottom: 32px;
+}
+
+.form-group .radio-wrapper span{
+    position: absolute;
+    right: 0;
+}
+
+.form-group .btn-wrapper{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
