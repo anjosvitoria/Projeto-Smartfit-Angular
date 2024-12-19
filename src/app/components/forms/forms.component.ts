@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class FormsComponent {
 
+  Results = [];
+
+  constructor(){}
+
+  ngOnInit(): void {
+
+  }
 }
