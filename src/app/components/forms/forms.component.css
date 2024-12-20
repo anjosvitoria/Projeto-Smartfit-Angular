@@ -102,8 +102,8 @@
   .form-group .checkbox-wrapper input[type="checkbox"] {
     margin-right: 4px;
   }
-  
-  @media (min-width: 768px) {
+  /* mobile */
+  @media (min-width: 768px) { 
     .form-group .btn-wrapper {
       flex-direction: row;
     }
